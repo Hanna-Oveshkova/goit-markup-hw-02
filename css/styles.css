@@ -14,6 +14,7 @@ a {
 }
 
 .logo {
+  font-family: "Raleway", sans-serif;
   font-weight: 700;
   font-size: 18px;
   line-height: 1.17;
@@ -72,6 +73,7 @@ a {
   letter-spacing: 0.04em;
   color: #fff;
   background-color: #4d5ae5;
+  cursor: pointer;
 }
 .input-hero:hover,
 .input-hero:focus {
@@ -97,6 +99,9 @@ a {
   background-color: #f4f4fd;
 }
 
+.time-list {
+  background-color: #fff;
+}
 .time-title {
   font-weight: 700;
   font-size: 36px;
@@ -104,6 +109,7 @@ a {
   letter-spacing: 0.02em;
   text-align: center;
   color: #2e2f42;
+  text-transform: capitalize;
 }
 
 .time-name {
@@ -126,10 +132,11 @@ a {
 .portfolio-title {
   font-weight: 700;
   font-size: 36px;
-  line-height: 1.11111;
+  line-height: 1.11;
   letter-spacing: 0.02em;
   text-align: center;
   color: #2e2f42;
+  text-transform: capitalize;
 }
 
 .portfolio-service {
